@@ -12,6 +12,8 @@ func main() {
 		fmt.Fprintf(w, "Hello risk-tech\n")
 	})
 
+	fmt.Println("RSMN demo service running")
+
 	log.Fatal(http.ListenAndServe(":5555", nil))
 
 }
