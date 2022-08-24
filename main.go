@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	version := "1.0.11"
+	version := "1.0.12"
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "Hello risk-tech\n")
